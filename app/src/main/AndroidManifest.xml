@@ -6,6 +6,7 @@
     <!-- To get list of all apps -->
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"
         tools:ignore="QueryAllPackagesPermission" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <!-- Package visibility config -->
     <queries>
@@ -21,7 +22,8 @@
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Androidmalwaredetector">
+        android:theme="@style/Theme.Androidmalwaredetector"
+        android:networkSecurityConfig="@xml/network_security_config">
 
         <activity
             android:name=".MainActivity"
