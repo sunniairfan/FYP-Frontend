@@ -1,0 +1,27 @@
+{
+    "java.home": "C:\\Users\\renni\\Downloads\\jdk-24_windows-x64_bin\\jdk-24.0.2",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-24",
+            "path": "C:\\Users\\renni\\Downloads\\jdk-24_windows-x64_bin\\jdk-24.0.2"
+        }
+    ],
+    "kotlin.languageServer.enabled": true,
+    "kotlin.languageServer.path": "",
+    "files.associations": {
+        "*.kt": "kotlin",
+        "*.kts": "kotlin"
+    },
+    "files.exclude": {
+        "**/build/": true,
+        "**/.gradle/": true,
+        "**/gradle/wrapper/gradle-wrapper.jar": true
+    },
+    "java.compile.nullAnalysis.mode": "automatic",
+    "gradle.nestedProjects": true,
+    "android.sdk": "${env:ANDROID_HOME}",
+    "terminal.integrated.env.windows": {
+        "JAVA_HOME": "C:\\Users\\renni\\Downloads\\jdk-24_windows-x64_bin\\jdk-24.0.2"
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
