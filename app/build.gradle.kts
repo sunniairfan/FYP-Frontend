@@ -57,6 +57,9 @@ dependencies {
     // Coroutines for async operations
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
     
+    // TensorFlow Lite for ML model inference
+    implementation("org.tensorflow:tensorflow-lite:2.14.0")
+    
     // Preferences for settings
     implementation("androidx.preference:preference-ktx:1.2.1")
     testImplementation(libs.junit)
