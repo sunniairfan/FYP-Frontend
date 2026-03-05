@@ -59,6 +59,15 @@ dependencies {
     
     // TensorFlow Lite for ML model inference
     implementation("org.tensorflow:tensorflow-lite:2.14.0")
+    implementation("org.tensorflow:tensorflow-lite-support:0.4.4")
+
+    // Gson — JSON parsing for model_metadata.json
+    implementation("com.google.code.gson:gson:2.10.1")
+
+    // ViewModel + LiveData for scan screen
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.9.1")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.9.1")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.9.1")
     
     // Preferences for settings
     implementation("androidx.preference:preference-ktx:1.2.1")
