@@ -1,0 +1,26 @@
+{
+  "version": "1.2",
+  "package_risk_patterns": [
+    {"pattern": "magisk",        "min_score": 0.46, "reason": "root_manager"},
+    {"pattern": "topjohnwu",     "min_score": 0.46, "reason": "root_developer"},
+    {"pattern": "nethunter",     "min_score": 0.72, "reason": "pentest_framework"},
+    {"pattern": "offsec",        "min_score": 0.68, "reason": "pentest_vendor"},
+    {"pattern": "xposed",        "min_score": 0.52, "reason": "framework_hook"},
+    {"pattern": "substrate",     "min_score": 0.50, "reason": "framework_hook"},
+    {"pattern": "supersu",       "min_score": 0.62, "reason": "root_manager"},
+    {"pattern": "busybox",       "min_score": 0.46, "reason": "root_utility"},
+    {"pattern": "kali",          "min_score": 0.68, "reason": "pentest_os"},
+    {"pattern": "metasploit",    "min_score": 0.80, "reason": "exploit_framework"},
+    {"pattern": "drozer",        "min_score": 0.78, "reason": "exploit_framework"},
+    {"pattern": "zanti",         "min_score": 0.74, "reason": "network_attacker"},
+    {"pattern": "dsploit",       "min_score": 0.78, "reason": "exploit_tool"},
+    {"pattern": "hackode",       "min_score": 0.68, "reason": "hacking_toolkit"},
+    {"pattern": "frida",         "min_score": 0.62, "reason": "dynamic_instrumentation"},
+    {"pattern": "kingroot",      "min_score": 0.58, "reason": "root_manager"},
+    {"pattern": "towelroot",     "min_score": 0.60, "reason": "root_exploit"},
+    {"pattern": "framaroot",     "min_score": 0.60, "reason": "root_exploit"},
+    {"pattern": "mspy",          "min_score": 0.78, "reason": "stalkerware"},
+    {"pattern": "flexispy",      "min_score": 0.80, "reason": "stalkerware"},
+    {"pattern": "thetruthspy",   "min_score": 0.80, "reason": "stalkerware"}
+  ]
+}
